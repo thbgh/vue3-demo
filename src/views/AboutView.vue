@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { DatePicker } from 'ant-design-vue'
 // 组合式API结合Pinia
 import { useCounterStore } from '@/stores/counter'
 const store = useCounterStore()
@@ -11,6 +12,7 @@ const store = useCounterStore()
     <div>
       {{ store.count }}
     </div>
+    <DatePicker />
   </div>
 </template>
 

@@ -1,6 +1,6 @@
 # vue-project
 
-- 项目技术栈: Vue3 + TS + Pinia + Eslin + prettier + commitzen
+- 项目技术栈: Vue3 + Vite + Ant-design + TS + Pinia + Eslin + prettier + commitzen
 
 This template should help get you started developing with Vue 3 in Vite.
 
