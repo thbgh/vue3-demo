@@ -9,6 +9,12 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    AButton: typeof import('ant-design-vue/es')['Button']
+    ADatePicker: typeof import('ant-design-vue/es')['DatePicker']
+    AInput: typeof import('ant-design-vue/es')['Input']
+    AInputGroup: typeof import('ant-design-vue/es')['InputGroup']
+    AStep: typeof import('ant-design-vue/es')['Step']
+    ASteps: typeof import('ant-design-vue/es')['Steps']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     IconCommunity: typeof import('./src/components/icons/IconCommunity.vue')['default']
     IconDocumentation: typeof import('./src/components/icons/IconDocumentation.vue')['default']
